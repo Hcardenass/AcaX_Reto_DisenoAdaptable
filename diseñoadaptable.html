@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peliculas animadas</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 0;
+      margin: 0;
+    }
+
+    header {
+      position: fixed;
+      background-color: #212020;
+      width: 100%;
+      text-align: center;
+      color: #fff;
+      padding: 15px 0;
+    }
+
+    button {
+      padding: 15px 20px;
+      border: 2px solid white;
+      background-color: #212020;
+      color: #fff;
+      font-size: 8px;
+      cursor: pointer;
+
+    }
+
+    .conteiner {
+      padding: 160px 20px;
+      display: flex;
+      flex-wrap: wrap;
+      /* justify-content: center; */
+      /* margin: 10px; */
+    }
+
+    .imagen {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      padding: 20px;
+      border-radius: 5px;
+      width: 300px;
+      /* margin: 70px 0px; */
+      margin: 20px;
+      /* display: inline-block; */
+    }
+
+    .imagen img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    @media (max-width: 600px) {
+
+      /* Cambios para dispositivos móviles */
+      .conteiner {
+        width: 90%;
+      }
+
+    }
+
+    /* @media (max-width: 600px) {
+      header {
+        position: fixed;
+        /* Mantener el encabezado fijo 
+      } */
+    
+  </style>
+
+</head>
+
+<body>
+  <header>
+    <h1>Peliculas Animadas</h1>
+    <button>Menú</button>
+  </header>
+
+  <div class="conteiner">
+    <div class="imagen">
+      <img src="/CSS/Practicando/Reto - Diseño Adaptable/onepiece.jpg" alt="onepiece" />
+      <h3>Pelicula 1</h3>
+      <p>Descripción de la pelicula 1.</p>
+      <p>$ 19.99</p>
+      <a href="#">Comprar</a>
+    </div>
+
+    <div class="imagen">
+      <img src="/CSS/Practicando/Reto - Diseño Adaptable/my-hero-academia.jpg" alt="myheroacademia">
+      <h3>Pelicula 2</h3>
+      <p>Descripción de la pelicula 2.</p>
+      <p>$ 19.99</p>
+      <a href="#">Comprar</a>
+    </div>
+
+    <div class="imagen">
+      <img src="/CSS/Practicando/Reto - Diseño Adaptable/bluelock.jpg" alt="bluelock">
+      <h3>Pelicula 3</h3>
+      <p>Descripción de la pelicula 3.</p>
+      <p>$ 19.99</p>
+      <a href="#">Comprar</a>
+    </div>
+
+    <div class="imagen">
+      <img src="/CSS/Practicando/Reto - Diseño Adaptable/jujutsukaizen.jpg" alt="jujutsu">
+      <h3>Pelicula 4</h3>
+      <p>Descripción de la pelicula 4.</p>
+      <p>$ 19.99</p>
+      <a href="#">Comprar</a>
+    </div>
+
+  </div>
+</body>
+
+</html>
